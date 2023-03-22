@@ -6,7 +6,7 @@
  *
  * @n: the input number as an integer.
  *
- * Return: l is greater than zero, 0 is zero.
+ * Return: 1 is greater than zero, 0 is zero.
  * -1 is less then zero.
  */
 int print_sign(int n)
@@ -14,7 +14,7 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		_putchar(43);
-		return (l);
+		return (1);
 	}
 	else if (n < 0)
 	{
