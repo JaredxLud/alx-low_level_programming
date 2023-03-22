@@ -7,7 +7,7 @@
  * @n: the input number as an integer.
  *
  * Return: l is greater than zero, 0 is zero.
- * -l is less then zero.
+ * -1 is less then zero.
  */
 int print_sign(int n)
 {
