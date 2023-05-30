@@ -4,14 +4,14 @@
  * @s: string
  * Return: length
  */
-void puts_half(char *str)
+void _strlen(char *s)
 {
 	int longi = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		longi++;
-		str++;
+		s++;
 	}
 
 	return (longi);
