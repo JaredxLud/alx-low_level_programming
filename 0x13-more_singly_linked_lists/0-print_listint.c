@@ -5,16 +5,17 @@
  *
  * Return: number of nodes
  */
+
 size_t print listint(const listint_t *h)
 {
-	size_t num = 0
+	size_t num = 0;
 
 	while (h)
 	{
-		printf("%d\n", h->n);
-		num++;
+	i	printf("%d\n", h->n);
+		nodes++;
 		h = h->next;
 	}
 
-	return (num);
+	return (nodes);
 }
